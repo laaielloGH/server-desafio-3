@@ -4,7 +4,7 @@ const app = express();
 const Contendor = require('./index');
 const productos = new Contendor ("productos.txt");
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080
 
 //PRODUCTOS PARA AGREGAR
 const producto1 = {
