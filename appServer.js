@@ -62,6 +62,5 @@ app.get('/productoRandom',async (req, res) => {
     res.send(`El producto es: ${await getProductRandom()}`);
 })
 
-
 const server = app.listen(PORT,()=>{console.log('Server Runing')});
 server.on('error',error=>console.log(`Error ${error}`));
